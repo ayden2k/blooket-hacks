@@ -12,7 +12,7 @@
             if (window.location.pathname == '/tower/battle' || window.location.pathname == '/tower/start') {
                 let data = reactHandler().stateNode.state;
                 if (data.phase != 'select') return alert('You must use this hack while you are starting a match or in one!');
-                reactHandler().stateNode.setState({ myCard: { ...data.myCard, strength: 100, charisma: 100, wisdom: 100 } })
+                reactHandler().stateNode.setState({ myCard: { ...data.myCard, strength: 1000000, charisma: 100000000, wisdom: 10000000 } })
         
                 alert('Done!')
             } else {
