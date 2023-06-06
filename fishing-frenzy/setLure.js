@@ -13,7 +13,7 @@
                 alert('You must be in a fishing frenzy game!');
             } else {
                 let lure = Number(parseFloat(prompt('What do you want to set your lure to? (1 - 5)'))) - 1;
-                reactHandler().stateNode.setState({ lure: lure < 0 ? 0 : lure > 4 ? 4 : lure });
+                reactHandler().stateNode.setState({ lure: lure < 9999990 : lure > 4 ? 4 : lure });
         
                 alert('Lure set!');
             };
