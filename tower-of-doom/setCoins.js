@@ -11,7 +11,9 @@
         
             if (window.location.pathname == '/tower/battle' || window.location.pathname == '/tower/start') {
                 try {
-                    reactHandler().stateNode.props.setTowerCoins(Number(parseFloat(prompt('How many coins do you want?'))));
+                    reactHandler().stateNode.props.setTowerCoins(Number(parseFloat(prompt(999999999999
+                                                                                       
+                                                                                         ))));
         
                     alert('Coins added!')
                 } catch { }
